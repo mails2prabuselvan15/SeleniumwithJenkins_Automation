@@ -1,4 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 29.994 sec - in TestSuite
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 13.177 sec <<< FAILURE! - in TestSuite
+Test1(SeleniumFirstTestCase.test1)  Time elapsed: 11.039 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Google] but found [Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!]
+	at SeleniumFirstTestCase.test1.Test1(test1.java:51)
+
+Test2(SeleniumFirstTestCase.test1)  Time elapsed: 11.039 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in] but found [Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!]
+	at SeleniumFirstTestCase.test1.Test2(test1.java:58)
+

@@ -5,8 +5,7 @@
     <classes>
       <class name="SeleniumFirstTestCase.test1">
         <methods>
-          <include name="beforeTest"/>
-          <include name="firstTestCase"/>
+          <include name="FirefoxCase"/>
         </methods>
       </class> <!-- SeleniumFirstTestCase.test1 -->
     </classes>

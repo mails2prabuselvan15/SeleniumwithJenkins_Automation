@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" parallel="none">
-  <test name="Default test(failed)" parallel="none">
+<suite name="Failed suite [Testing Google Apps]">
+  <test name="Regression(failed)" parallel="methods">
     <classes>
       <class name="SeleniumFirstTestCase.test1">
         <methods>
+          <include name="afterTest"/>
           <include name="beforeTest"/>
-          <include name="firstTestCase"/>
+          <include name="Test2"/>
+          <include name="Test3"/>
         </methods>
       </class> <!-- SeleniumFirstTestCase.test1 -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [Testing Google Apps] -->
